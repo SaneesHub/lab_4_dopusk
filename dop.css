@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1000px;
+}
+.head_line{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.head_butt{
+    font-weight: 700;
+}
+.head_1{
+    font-size: 40px;
+}
+.head_2{
+    font-size: 85px;
+    color: #FC712D;
+}
+.head_info{
+    margin: 15px;
+    font-size: 17px;
+}
+main{
+    margin: 22px;
+    padding: 15px;
+    width: 1000px;
+}
+.pri_butt{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.pri_butt button{
+    background-color: #F0F0F0;
+    border-radius: 25px;
+    padding: 15px;
+    border: 0 solid black;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
+}
+.products_cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.shoe_block{
+    padding: 15px;
+    background-color:#E4E4E4;
+    border-radius: 20px;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.stars img{
+    size: 12px;
+}
+.right_part p{
+    font-size: 200px;
+    position: absolute;
+    top: 0px;
+    left: 1270px;
+    z-index:-1;
+}
+.right_part img{
+    position: absolute;
+    top: -520px;
+    left: 680px;
+}
